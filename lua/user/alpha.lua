@@ -5,13 +5,25 @@ end
 
 local dashboard = require("alpha.themes.dashboard")
 dashboard.section.header.val = {
-	[[                               __                ]],
-	[[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
-	[[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
-	[[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
-	[[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
-	[[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
+[[            .,ad8888888baa,]],
+[[        ,d8P"""        ""988ba.]],
+[[      .a8"          ,d88888888888a]],
+[[     aP'          ,8888888888888888a]],
+[[   ,8"           ,8888888888888888888,]],
+[[  ,8'            (88888888( )888888888,]],
+[[ ,8'             `88888888888888888888]],
+[[(8                "8888888888888888888)]],
+[[(8                 `8888888888888888888)]],
+[[(8                  "88888888888888888)]],
+[[ (b                     "8888888888888']],
+[[ `8,        (8)          888888888888)]],
+[[  "8a                   ,88888888888)]],
+[[    V8,                 d8888888888"]],
+[[     `8b,             ,d888888888P']],
+[[        `V8a,       ,ad888888888P']],
+[[           888888888888888P"]],
 }
+
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
 	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
@@ -28,7 +40,7 @@ local function footer()
 	-- local fortune = handle:read("*a")
 	-- handle:close()
 	-- return fortune
-	return "chrisatmachine.com"
+	return "Birds don't fly, they are flown by the wind.\nFish don't swim, they are carried by the water."
 end
 
 dashboard.section.footer.val = footer()
