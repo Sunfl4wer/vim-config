@@ -99,6 +99,10 @@ return packer.startup(function(use)
   -- Vim-Go
   use { "fatih/vim-go" }
 
+  -- Vim-Raku
+
+  use { "Raku/vim-raku" }
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

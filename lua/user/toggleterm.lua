@@ -16,7 +16,7 @@ toggleterm.setup({
 	direction = 'horizontal',
 	close_on_exit = true,
 	--shell = vim.o.shell,
-  shell = "/opt/homebrew/bin/fish",
+  shell = "/bin/bash",
 	float_opts = {
 		border = "curved",
 		winblend = 0,

@@ -249,6 +249,11 @@ _G.packer_plugins = {
     path = "/Users/lap15848-loccal/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
   },
+  ["vim-raku"] = {
+    loaded = true,
+    path = "/Users/lap15848-loccal/.local/share/nvim/site/pack/packer/start/vim-raku",
+    url = "https://github.com/Raku/vim-raku"
+  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/lap15848-loccal/.local/share/nvim/site/pack/packer/start/which-key.nvim",
